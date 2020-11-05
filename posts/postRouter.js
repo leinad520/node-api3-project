@@ -1,6 +1,8 @@
 const express = require('express');
-
 const router = express.Router();
+
+// Database methods
+const Post = require('./postDb.js');
 
 router.get('/', (req, res) => {
   // do your magic!

@@ -1,2 +1,7 @@
 // code away!
-//hi test
+const server = require('./server.js')
+
+server.listen(4000, (req, res) => {
+    console.log('listening on port 4000')
+})
+
