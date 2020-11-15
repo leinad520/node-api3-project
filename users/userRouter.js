@@ -8,6 +8,8 @@ const Post = require('../posts/postDb.js');
 
 // Built-in middleware
 router.use(express.json());
+
+// custom middleware
 router.use(logger);
 
 // API /user
